@@ -1,0 +1,16 @@
+// ==UserScript==
+// @name         test
+// @namespace    testjs
+// @version      0.1
+// @description  测试油猴脚本
+// @author       sld
+// @match        https://www.baidu.com/*
+// @grant        none
+// ==/UserScript==
+
+(function() {
+    'use strict';
+
+    // 弹出提示框
+    alert("你已经进入了百度！");
+})();
